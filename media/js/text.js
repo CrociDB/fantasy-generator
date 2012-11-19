@@ -9,7 +9,9 @@ var noun = {
 		["O", "Querubim"],
 		["Os", "Querubins"],
 		["A", "Legião"],
-		["O", "Demônio"]
+		["O", "Demônio"],
+		["O", "Espírito"],
+		["Os", "Espíritos"]
 	],
 	"kings": [
 		["O", "Rei"],
@@ -18,16 +20,21 @@ var noun = {
 		["As", "Rainhas"],
 		["O", "Príncipe"],
 		["A", "Princesa"],
-		["O", "Trono"]
+		["O", "Trono"],
+		["O", "Imperador"],
+		["A", "Linhagem"],
+		["O", "Conde"]
 	],
 	"gods": [
 		["O", "Deus"],
-		["Os", "Deuses"]
+		["Os", "Deuses"],
+		["O", "Panteão"]
 	],
 	"vampires": [
 		["O", "Vampiro"],
 		["Os", "Vampiros"],
-		["O", "Sangue"]
+		["O", "Sangue"],
+		["As", "Prezas"]
 	],
 	"war": [
 		["A", "Guerra"],
@@ -36,17 +43,54 @@ var noun = {
 		["As", "Batalhas"],
 		["O", "General"],
 		["O", "Guerreiro"],
-		["Os", "Guerreiros"]
+		["Os", "Guerreiros"],
+		["As", "Armas"]
 	],
 	"magic": [
 		["O", "Mago"],
 		["A", "Magia"],
 		["O", "Feiticeiro"],
-		["Os", "Feiticeiros"]
+		["Os", "Feiticeiros"],
+		["O", "Druida"],
+		["Os", "Druidas"],
+		["O", "Encantador"],
+		["A", "Varinha"],
+		["O", "Cajado"],
+		["As", "Fadas"]
 	],
 	"standard": [
 		["A", "Cidade"],
-		["A", "Cidadela"]
+		["A", "Cidadela"],
+		["A", "Morte"],
+		["O", "Inimigo"],
+		["A", "Terra"],
+		["O", "Último"],
+		["O", "Sábio"],
+		["As", "Chamas"],
+		["As", "Crônicas"],
+		["O", "Viajante"],
+		["A", "Lenda"],
+		["Os", "Monstros"],
+		["O", "Monstro"],
+		["As", "Lágrimas"],
+		["As", "Areias"],
+		["Os", "Olhos"]
+	],
+	"medieval": [
+		["A", "Espada"],
+		["As", "Espadas"],
+		["O", "Machado"],
+		["Os", "Machados"],
+		["O", "Escudo"],
+		["Os", "Escudos"],
+		["O", "Cavaleiro"],
+		["O", "Arqueiro"],
+		["O", "Matador"],
+		["O", "Gigante"],
+		["O", "Dragão"],
+		["Os", "Dragões"],
+		["O", "Pergaminho"],
+		["Os", "Pergaminhos"]
 	]
 };
 
@@ -58,13 +102,17 @@ var adj = {
 		["do", "Ódio"],
 		["do", "Apocalipse"],
 		["do", "Amor"],
-		["de", "Deus"]
+		["de", "Deus"],
+		["de", "Éter"]
 	],
 	"kings": [
 		["do", "Trono"],
 		["do", "Reino"],
 		["da", "Coroa"],
-		["do", "Castelo"]
+		["do", "Castelo"],
+		["do", "Reino"],
+		["do", "Império"],
+		["do", "Palácio"]
 	],
 	"gods": [
 		["dos", "Deuses"]
@@ -76,29 +124,42 @@ var adj = {
 	],
 	"war": [
 		["da", "Guerra"],
-		["da", "Paz"]
+		["da", "Paz"],
+		["da", "Coragem"],
+		["da", "Justiça"]
 	],
 	"magic": [
-		["da", "Magia"]
+		["da", "Magia"],
+		["da", "Ilusão"]
 	],
 	"standard": [
 		["de", "Fogo"],
 		["do", "Fogo"],
 		["da", "Água"],
+		["de", "Gelo"],
+		["da", "Luz"],
 		["de", "Fogo"],
 		["do", "Sol"],
 		["das", "Trevas"],
-		["de", "Almas"]
+		["de", "Almas"],
+		["do", "Mar"],
+		["da", "Noite"],
+		["do", "Tempo"],
+		["da", "Terra"],
+		["da", "Areia"],
+		["do", "Universo"],
+		["de", "Ouro"],
+		["de", "Prata"],
+		["de", "Bronze"],
+		["da", "Lua"],
+		["da", "Verdade"],
+		["das", "Cinzas"],
+		["da", "Paixão"]
+	],
+	"medieval": [
+		["dos", "Antepassados"],
+		["da", "Herança"],
+		["de", "Espadas"]
 	]
 }
-
-
-
-
-
-
-
-
-
-
 
