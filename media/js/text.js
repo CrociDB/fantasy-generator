@@ -28,7 +28,16 @@ var noun = {
 	"gods": [
 		["O", "Deus"],
 		["Os", "Deuses"],
-		["O", "Panteão"]
+		["O", "Panteão"],
+		["A", "Irmandade"],
+		["A", "Doutrina"],
+		["O", "Santo"],
+		["Os", "Santos"],
+		["O", "Demônio"],
+		["Os", "Demônios"],
+		["A", "Religião"],
+		["A", "Crença"],
+		["A", "Seita"]
 	],
 	"vampires": [
 		["O", "Vampiro"],
@@ -44,7 +53,10 @@ var noun = {
 		["O", "General"],
 		["O", "Guerreiro"],
 		["Os", "Guerreiros"],
-		["As", "Armas"]
+		["As", "Armas"],
+		["A", "Lança"],
+		["A", "Adaga"],
+		["O", "Comandante"]
 	],
 	"magic": [
 		["O", "Mago"],
@@ -56,7 +68,11 @@ var noun = {
 		["O", "Encantador"],
 		["A", "Varinha"],
 		["O", "Cajado"],
-		["As", "Fadas"]
+		["As", "Fadas"],
+		["A", "Canção"],
+		["O", "Alquimista"],
+		["O", "Ilusionista"],
+		["O", "Telepata"]
 	],
 	"standard": [
 		["A", "Cidade"],
@@ -74,7 +90,12 @@ var noun = {
 		["O", "Monstro"],
 		["As", "Lágrimas"],
 		["As", "Areias"],
-		["Os", "Olhos"]
+		["Os", "Olhos"],
+		["O", "Herege"],
+		["O", "Vale"],
+		["A", "Casa"],
+		["O", "Livro"],
+		["O", "Poder"]
 	],
 	"medieval": [
 		["A", "Espada"],
@@ -90,7 +111,25 @@ var noun = {
 		["O", "Dragão"],
 		["Os", "Dragões"],
 		["O", "Pergaminho"],
-		["Os", "Pergaminhos"]
+		["Os", "Pergaminhos"],
+		["O", "Senhor"],
+		["Os", "Senhores"],
+		["O", "Senhorio"],
+		["O", "Vassalo"],
+		["O", "Bardo"],
+		["O", "Contador de Histórias"],
+		["O", "Condenado"],
+		["A", "Muralha"],
+		["O", "Anão"],
+		["Os", "Anões"],
+		["O", "Elfo"],
+		["Os", "Elfos"]
+	],
+	"werewolves": [
+		["O", "Lobo"],
+		["Os", "Lobos"],
+		["O", "Cão"],
+		["O", "Lobisomem"]
 	]
 };
 
@@ -98,6 +137,7 @@ var adj = {
 	"angels": [
 		["dos", "Anjos"],
 		["do", "Céu"],
+		["do", "Paraíso"],
 		["do", "Inferno"],
 		["do", "Ódio"],
 		["do", "Apocalipse"],
@@ -112,15 +152,23 @@ var adj = {
 		["do", "Castelo"],
 		["do", "Reino"],
 		["do", "Império"],
-		["do", "Palácio"]
+		["do", "Palácio"],
+		["da", "Corte"],
+		["dos", "Reis"]
 	],
 	"gods": [
-		["dos", "Deuses"]
+		["dos", "Deuses"],
+		["da", "Onisciência"],
+		["da", "Onipresença"],
+		["da", "Onipotência"],
+		["da", "Ressurreição"],
+		["do", "Poder"]
 	],
 	"vampires": [
 		["do", "Sangue"],
 		["das", "Sombras"],
-		["da", "Escuridão"]
+		["da", "Escuridão"],
+		["de", "Rubi"]
 	],
 	"war": [
 		["da", "Guerra"],
@@ -138,12 +186,14 @@ var adj = {
 		["da", "Água"],
 		["de", "Gelo"],
 		["da", "Luz"],
-		["de", "Fogo"],
+		["de", "Fogo Verde"],
 		["do", "Sol"],
 		["das", "Trevas"],
+		["da", "Escuridão"],
 		["de", "Almas"],
 		["do", "Mar"],
 		["da", "Noite"],
+		["da", "Noite Fria"],
 		["do", "Tempo"],
 		["da", "Terra"],
 		["da", "Areia"],
@@ -151,15 +201,31 @@ var adj = {
 		["de", "Ouro"],
 		["de", "Prata"],
 		["de", "Bronze"],
+		["de", "Cristal"],
+		["de", "Diamante"],
 		["da", "Lua"],
 		["da", "Verdade"],
 		["das", "Cinzas"],
-		["da", "Paixão"]
+		["da", "Paixão"],
+		["do", "Inverno"],
+		["da", "Primavera"],
+		["da", "Colina"],
+		["das", "Colinas"],
+		["da", "Montanha"],
+		["das", "Montanhas"],
+		["do", "Vale"],
+		["de", "Preto"],
+		["de", "Branco"],
+		["de", "Preto e Branco"]
 	],
 	"medieval": [
 		["dos", "Antepassados"],
 		["da", "Herança"],
-		["de", "Espadas"]
+		["de", "Espadas"],
+		["da", "Máscara de Prata"],
+		["do", "Norte"],
+		["do", "Sul"],
+		["da", "Liberdade"]
 	]
 }
 

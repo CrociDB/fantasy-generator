@@ -17,10 +17,10 @@ function generate()
 	
 	var index = Math.floor(Math.random() * nouns.length);
 	var selectedNoun = nouns[index];
-	var article = Math.floor(Math.random() * 2) == 1;
+	var article = Math.floor(Math.random() * 3) == 1;
 	
 	var generatedName = "";
-	if (article) generatedName += selectedNoun[0] + " ";
+	if (!article) generatedName += selectedNoun[0] + " ";
 	generatedName += selectedNoun[1];
 	
 	var adjs = [];
