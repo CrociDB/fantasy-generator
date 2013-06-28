@@ -19,7 +19,9 @@ var noun = {
 		["A", "Rainha"],
 		["As", "Rainhas"],
 		["O", "Príncipe"],
+        ["Os", "Príncipes"],
 		["A", "Princesa"],
+        ["As", "Princesas"],
 		["O", "Trono"],
 		["O", "Imperador"],
 		["A", "Linhagem"],
@@ -43,7 +45,9 @@ var noun = {
 		["O", "Vampiro"],
 		["Os", "Vampiros"],
 		["O", "Sangue"],
-		["As", "Prezas"]
+		["As", "Prezas"],
+        ["O", "Monstro"],
+        ["O", "Morto"]
 	],
 	"war": [
 		["A", "Guerra"],
@@ -95,7 +99,25 @@ var noun = {
 		["O", "Vale"],
 		["A", "Casa"],
 		["O", "Livro"],
-		["O", "Poder"]
+		["O", "Poder"],
+        ["O", "Labirinto"],
+        ["A", "Maldição"],
+        ["O", "Ladrão"],
+        ["A", "Ladra"],
+        ["O", "Mar"],
+        ["O", "Oceano"],
+        ["O", "Despertar"],
+        ["O", "Confronto"],
+        ["A", "Fúria"],
+        ["A", "Reunião"],
+        ["O", "Diário"],
+        ["Os", "Diários"],
+        ["A", "Revolta"],
+        ["A", "Rebelião"],
+        ["O", "Rebelde"],
+        ["A", "Rebelde"],
+        ["Os", "Rebeldes"],
+        ["As", "Brumas"]
 	],
 	"medieval": [
 		["A", "Espada"],
@@ -129,7 +151,8 @@ var noun = {
 		["O", "Lobo"],
 		["Os", "Lobos"],
 		["O", "Cão"],
-		["O", "Lobisomem"]
+		["O", "Lobisomem"],
+        ["O", "Monstro"]
 	]
 };
 
@@ -162,14 +185,24 @@ var adj = {
 		["da", "Onipresença"],
 		["da", "Onipotência"],
 		["da", "Ressurreição"],
-		["do", "Poder"]
+		["do", "Poder"],
+        ["de", "Raios"],
+        ["do", "Titã"],
+        ["dos", "Titãs"]
 	],
 	"vampires": [
 		["do", "Sangue"],
 		["das", "Sombras"],
 		["da", "Escuridão"],
-		["de", "Rubi"]
+		["de", "Rubi"],
+        ["da", "Noite"],
+        ["do", "Amanhecer"],
+        ["do", "Anoitecer"],
+        ["do", "Inferno"]
 	],
+    "werewolves": [
+        ["do", "Inferno"]
+    ],
 	"war": [
 		["da", "Guerra"],
 		["da", "Paz"],
@@ -216,7 +249,9 @@ var adj = {
 		["do", "Vale"],
 		["de", "Preto"],
 		["de", "Branco"],
-		["de", "Preto e Branco"]
+		["de", "Preto e Branco"],
+        ["do", "Labirinto"],
+        ["do", "Vento"]
 	],
 	"medieval": [
 		["dos", "Antepassados"],
@@ -225,7 +260,8 @@ var adj = {
 		["da", "Máscara de Prata"],
 		["do", "Norte"],
 		["do", "Sul"],
-		["da", "Liberdade"]
+		["da", "Liberdade"],
+        ["de", "Avalon"]
 	]
 }
 
